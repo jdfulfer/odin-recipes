@@ -20,7 +20,9 @@ header {
 }
 
 ul, li {
+    display: block;
     list-style-type: none;
+    padding: 10px;
 }
 
 h1 {
@@ -28,12 +30,23 @@ h1 {
     font-size: 50px;
 }
 
-.steak-image {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    border-radius: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+p {
+    margin: 15px;
+    padding: auto;
+}
+
+h3 {
+    margin: 15px;
+    text-decoration: underline;
+    
 }
 
 
